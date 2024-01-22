@@ -16,8 +16,16 @@
         <h1>YouTube Thumbnail Downloader</h1>
         <div class="input-group">
             <input type="text" id="url" placeholder="Enter YouTube Video URL">
+            <select id="qualitySelect">
+                <option value="maxresdefault">Max Resolution</option>
+                <option value="hqdefault">High Quality</option>
+                <option value="mqdefault">Medium Quality</option>
+                <option value="sddefault">Standard Definition</option>
+                <option value="default">Default</option>
+            </select>
             <button id="download">Download</button>
         </div>
+        <img id="thumbnailPreview" src="" alt="Thumbnail Preview" style="max-width: 100%; display: none;"/>
     </div>
     <script src="popup.js"></script>
 </body>
