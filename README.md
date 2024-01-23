@@ -13,13 +13,13 @@ YouTube Thumbnail Downloader is a user-friendly Chrome extension that allows use
 
 ## Technologies Used
 
-HTML: For structuring the popup interface of the extension.
-CSS: For styling the interface, including responsive design and interactive elements.
-JavaScript: For handling the extension's logic, including URL validation, thumbnail preview, and image download functionality.
+- HTML: For structuring the popup interface of the extension.
+- CSS: For styling the interface, including responsive design and interactive elements.
+- JavaScript: For handling the extension's logic, including URL validation, thumbnail preview, and image download functionality.
 
 ## Installation
-Clone the repository to your local machine.
-Open Google Chrome and navigate to chrome://extensions/.
-Enable "Developer mode" at the top right corner.
-Click "Load unpacked" and select the cloned repository folder.
-The extension should now be installed and ready to use.
+1. Clone the repository to your local machine.
+2. Open Google Chrome and navigate to chrome://extensions/.
+3. Enable "Developer mode" at the top right corner.
+4. Click "Load unpacked" and select the cloned repository folder.
+5. The extension should now be installed and ready to use.
