@@ -1,0 +1,21 @@
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Mac system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# Optional IDE/Editor files
+.vscode/
+.idea/
+
+# Build output directory
+/dist

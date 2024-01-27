@@ -1,0 +1,18 @@
+{
+  "name": "download-thumbnail-extension",
+  "version": "1.0.0",
+  "description": "YouTube Thumbnail Downloader is a user-friendly Chrome extension that allows users to easily download thumbnails from YouTube videos. Designed to improve the efficiency and experience of users who frequently need access to YouTube video thumbnails, this extension operates directly within the Chrome browser and offers a range of features to enhance usability and convenience.",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/css/tailwind.css -o src/css/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.1.1",
+    "sharp": "^0.33.2",
+    "tailwindcss": "^3.4.1"
+  }
+}

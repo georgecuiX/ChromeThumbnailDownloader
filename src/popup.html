@@ -9,7 +9,8 @@
 <html>
 <head>
     <title>Thumbnail Downloader</title>
-    <link rel="stylesheet" type="text/css" href="popup.css">
+    <link rel="stylesheet" type="text/css" href="/src/css/popup.css">
+    
 </head>
 <body>
     <div class="container">
@@ -25,8 +26,12 @@
             </select>
             <button id="download">Download</button>
         </div>
-        <img id="thumbnailPreview" src="" alt="Thumbnail Preview" style="max-width: 100%; display: none;"/>
-    </div>
-    <script src="popup.js"></script>
+        <div>
+            <textarea id="urlList" class="large-textarea" rows="6" placeholder="Enter YouTube URLs, one per line"></textarea>
+            <button id="downloadAll" class="large-button">Download All Thumbnails</button>            
+        </div>            
+        <img id="thumbnailPreview" src="" alt="Thumbnail Preview" style="max-width: 100%; display: none;"/>  
+    </div> 
+    <script src="/src/js/popup.js"></script>
 </body>
 </html>

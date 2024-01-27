@@ -3,9 +3,9 @@
     "name": "YouTube Thumbnail Downloader",
     "version": "1.0",
     "description": "Download thumbnails from YouTube videos",
-    "permissions": ["activeTab", "downloads", "<all_urls>"],
+    "permissions": ["activeTab", "tabs", "downloads", "<all_urls>"],
     "browser_action": {
-      "default_popup": "popup.html",
+      "default_popup": "src/popup.html",
       "default_icon": {
         "16": "images/icon16.png",
         "48": "images/icon48.png",
@@ -17,10 +17,13 @@
       "48": "images/icon48.png",
       "128": "images/icon128.png"
     },
+    "web_accessible_resources": [
+      "/src/css/style.css"
+    ],
     "content_scripts": [
       {
-        "matches": ["*://www.youtube.com/*"],
-        "js": ["content.js"]
+        "matches": ["*://*.youtube.com/*" ],
+        "js": ["/src/js/content.js"]
       }
     ]
 }
