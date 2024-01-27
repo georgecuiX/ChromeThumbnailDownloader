@@ -10,11 +10,12 @@ YouTube Thumbnail Downloader is a user-friendly Chrome extension that allows use
 - **Thumbnail Quality Selection:** Users can choose from various thumbnail qualities (Max Resolution, High Quality, Medium Quality, Standard Definition, and Default), allowing for flexibility based on individual needs and preferences.
 - **Real-time Thumbnail Preview:** Displays a preview of the selected thumbnail in the popup window, providing a visual confirmation before downloading.
 - **One-Click Download:** Enables users to download the chosen thumbnail quickly and easily with a single click.
+- **Multiple Thumbnail Downloads:** Allows users to queue and download multiple thumbnails at once.
 
 ## Technologies Used
 
 - HTML: For structuring the popup interface of the extension.
-- CSS: For styling the interface, including responsive design and interactive elements.
+- Tailwind CSS: For styling the interface, including responsive design and interactive elements.
 - JavaScript: For handling the extension's logic, including URL validation, thumbnail preview, and image download functionality.
 
 ## Installation
